@@ -1,0 +1,53 @@
+.home .img-comntainer {
+  position: relative;
+}
+.home .img-comntainer .text {
+  position: absolute;
+  bottom: 20px;
+  width: 80%;
+  background-color: #fff;
+  padding-block: 10px;
+  margin-left: 10%;
+  border-radius: 20px;
+}
+.home .img-comntainer .text h2 {
+  font-size: 20px;
+}
+.home img{
+    cursor: pointer;
+}
+.ligt-container {
+  top: 0;
+  left: 0;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.451);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ligt-container .lightBox {
+  background-image: url("../imges/portfolio-1.jpg");
+  background-size: 100% 100%;
+  width: 80%;
+  height: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.ligt-container .lightBox i{
+    cursor: pointer;
+    font-size: 25px;
+    background-color: #000;
+    padding: 10px;
+    color: #fff;
+    margin-inline: 10px;
+    border-radius: 50%;
+}
+.ligt-container .lightBox #close{
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
